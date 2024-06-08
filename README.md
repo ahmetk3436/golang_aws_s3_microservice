@@ -59,10 +59,10 @@ docker run -d --name jaeger \
 unset CURRENT_PATH
 export CURRENT_PATH=$(pwd)
 export DATA_SOURCE_URL="root:golang-aws-s3-microservice@tcp(localhost:3306)/golang-aws-s3?charset=utf8mb4&parseTime=True&loc=Local"
-export AWS_REGION="eu-central-1"
-export AWS_ACCESS_KEY_ID="AKIA5OUQ2DJ2KKE2JV7P"
-export AWS_BUCKET_NAME="golang-aws-s3-casestudy"
-export AWS_SECRET_ACCESS_KEY="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"
+export AWS_REGION="AWS_REGION"
+export AWS_ACCESS_KEY_ID="AWS_ACCESS_KEY_ID"
+export AWS_BUCKET_NAME="AWS_BUCKET_NAME"
+export AWS_SECRET_ACCESS_KEY="AWS_SECRET_ACCESS_KEY"
 export DATA_JAEGER_URL="http://localhost:14268/api/traces"
 ```
 
